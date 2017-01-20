@@ -20,6 +20,7 @@ public class ErrorHandle implements ErrorController{
 	
 	@RequestMapping(value = ERROR_PATH)
 	public String Error(){
+		System.out.println("--------------------");
 		return "404 handling";
 	}
 
